@@ -28,7 +28,7 @@ getgenv().clonefunc = nil
 local Notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/x9PSwiftz/Panda/main/Notification.lua"))() 
 local instance = {obj = {}}
 local object = instance.obj
-local HubName = "Tsuo Hub"
+local HubName = "DT Hub"
 function instance.new(class, properties)
     local inst = Instance.new(class)
     for property, value in next, properties do
@@ -510,7 +510,7 @@ local function wl(key)
     if(sign_match ~= decode_response.sign) then
         local rq = http_request or request or HttpPost or syn.request
         local rq2 = rq({
-            Url = "https://discord.com/api/webhooks/1069540588187308043/GHr5nDTMkJu5afm97-ohNpVW7aZqn4nxJAaWeMbPeJ6jtyy2u_1ZoLgxcQ0cZo78wrMf",
+            Url = "",
             Method = "POST",
             Headers = {
                 ["Content-Type"] = "application/json"
