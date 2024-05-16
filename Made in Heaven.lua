@@ -510,7 +510,7 @@ local function wl(key)
     if(sign_match ~= decode_response.sign) then
         local rq = http_request or request or HttpPost or syn.request
         local rq2 = rq({
-            Url = "",
+            Url = "https://discord.com/api/webhooks/1229668788736098314/xn64JcPTZ82GTFwhCY3JbrBHzWv64s5hknMVzkpx2M86Z4-vkK4K4Q47dpNk1xFcIDgA",
             Method = "POST",
             Headers = {
                 ["Content-Type"] = "application/json"
